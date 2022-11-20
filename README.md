@@ -63,7 +63,7 @@ Developed by: S Adithya Chowdary.
 RegisterNumber: 212221230100.
 ~~~
 ### PROGRAM 
-###SIPO
+## SIPO
 ~~~
 module sipo(si,clk,po);
 input si,clk;
@@ -76,7 +76,7 @@ end
 assign po=temp;
 endmodule
 ~~~
-###PISO
+## PISO
 ~~~
 module sipo(Clk, Parallel_In,load, Serial_Out);
 input Clk,load;
@@ -96,7 +96,7 @@ end
 endmodule
 ~~~
 
-###PIPO
+## PIPO
 ~~~
 module sipo(pi,clk,po);
 input clk;
